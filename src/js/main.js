@@ -200,6 +200,7 @@ function initViveControllers () {
   }
 }
 
+
 function init () {
   // set up the scene, the camera and the renderer
   createScene()
@@ -210,7 +211,7 @@ function init () {
   // add the objects
   createSnowFall()
 
-  // // Apply VR headset positional data to camera.
+  // Apply VR headset positional data to camera.
   vrControls = new THREE.VRControls(camera)
   vrControls.standing = true
 
